@@ -36,13 +36,13 @@ def main():
         GPIO.output(LedPin, GPIO.LOW)
         time.sleep(0.5)
         GPIO.output(ledpin2, GPIO.LOW)
-	    GPIO.output(LedPin, GPIO.HIGH)
+        GPIO.output(LedPin, GPIO.HIGH)
         time.sleep(0.5)
         GPIO.output(ledpin3, GPIO.LOW)
-	    GPIO.output(ledpin2, GPIO.HIGH)
+        GPIO.output(ledpin2, GPIO.HIGH)
         time.sleep(0.5)
         GPIO.output(ledpin4, GPIO.LOW)
-	    GPIO.output(ledpin3, GPIO.HIGH)
+        GPIO.output(ledpin3, GPIO.HIGH)
         time.sleep(0.2)
 # Define a destroy function for clean up everything after the script finished
 def destroy():
